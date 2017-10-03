@@ -1,0 +1,39 @@
+/* COMMON */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 200px;
+}
+
+a {
+    color: $blue;
+    text-decoration: none;
+    transition: color .3s;
+    &:hover {
+        color: $red;
+    }
+}
+
+.inline {
+    display: flex;
+}
+
+.vertical-center {
+    align-items: center;
+}
+
+::-moz-selection { 
+    background: $red; 
+    color: white;
+}
+::selection { 
+    background: $red; 
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}

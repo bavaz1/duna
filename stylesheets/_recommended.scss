@@ -1,0 +1,39 @@
+/* RECOMMENDED */
+
+.recommended {
+    text-transform: uppercase;
+    text-align: center;
+    width: 1000px;
+    margin: 50px auto;
+    font-weight: bold;
+
+    img {
+        width: 250px;
+        overflow: hidden;
+        transition: all .3s;
+        
+    }
+    
+    a:first-of-type {
+        display: block;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+    }
+    
+    li:hover img {
+        width: 280px;
+    }
+    
+    li:hover a {
+        color: $red;
+    }
+    
+    a {
+        display: block;
+    }
+    
+    p {
+        color: $gray;
+    }
+}

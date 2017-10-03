@@ -1,0 +1,29 @@
+/* MAIN */
+
+.main {
+    width: 70%;
+    position: relative;
+    text-align: center;
+
+    img {
+        width: 100%;
+        max-width: 800px;
+    }
+    
+    .new {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        background: $blue;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 26px;
+        font-weight: bold;
+    }
+}
